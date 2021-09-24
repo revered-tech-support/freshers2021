@@ -1,0 +1,6 @@
+<?php
+/** @var \Nayum\Hello\Block\emp */
+?>
+<?php foreach ($block->getEmployees() as $employee):?>
+<p><?php echo $employee->getempname();?>:<p><?php echo $employee->getmobile();?></p> <?php echo $employee->getaddress();?></p>
+<?php endforeach;?>
